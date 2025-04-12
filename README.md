@@ -15,7 +15,7 @@
 <div align="center">
   <h2>💼 Professional Bloomberg Terminal Interface Clone</h2>
   <p>A high-fidelity recreation of the iconic Bloomberg Terminal with advanced financial data visualization capabilities</p>
-  <p>Built with ❤️ by <a href="https://github.com/mach2furkan">Furkan Askin</a></p>
+  <p>Built  by <a href="https://github.com/mach2furkan"> me </a></p>
 </div>
 
 <br/>
