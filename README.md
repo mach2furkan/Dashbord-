@@ -20,11 +20,6 @@
 
 <br/>
 
-![Bloomberg Terminal Dashboard Preview](https://sjc.microlink.io/3BkLzNAQaQo7EZpMeW2zYSnA0GOx0DUemiAar2P15hGWuOFv67ScADh5AwJJKkBuQptfHeQByfHQC5pQFSI3GQ.jpeg)
-*Figure 1: Dashboard Interface Overview*
-
----
-
 ## ✨ Key Features
 
 ### 🚀 Core Functionality
