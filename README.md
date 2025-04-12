@@ -1,8 +1,8 @@
-# Dashbord-
 
-#  Terminal Dashboard 
+# 📊 Terminal Dashboard Pro
 
 <div align="center">
+  <img src="https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge" alt="Version" />
   <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
@@ -10,49 +10,126 @@
   <img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" alt="License" />
 </div>
 
+<br/>
+
 <div align="center">
-  <h3>A professional-grade Bloomberg Terminal interface clone with advanced financial data visualization</h3>
-  <p>Built by <a href="https://github.com/mach2furkan">Furkan Askin</a></p>
+  <h2>💼 Professional Bloomberg Terminal Interface Clone</h2>
+  <p>A high-fidelity recreation of the iconic Bloomberg Terminal with advanced financial data visualization capabilities</p>
+  <p>Built with ❤️ by <a href="https://github.com/mach2furkan">Furkan Askin</a></p>
 </div>
 
+<br/>
+
 ![Bloomberg Terminal Dashboard Preview](https://sjc.microlink.io/3BkLzNAQaQo7EZpMeW2zYSnA0GOx0DUemiAar2P15hGWuOFv67ScADh5AwJJKkBuQptfHeQByfHQC5pQFSI3GQ.jpeg)
+*Figure 1: Dashboard Interface Overview*
 
-## 🚀 Features
+---
 
-- **Authentic Bloomberg Terminal Experience** - Faithful recreation of the iconic Bloomberg Terminal interface
-- **Real-time Market Data Visualization** - Dynamic sparklines and market indicators
-- **Multi-layout Support** - Configurable layouts (full, split, triple-panel)
-- **Advanced Portfolio Tracking** - Sortable portfolio table with performance metrics
-- **News Integration** - Filterable financial news with priority indicators
-- **User Profile Management** - Personal profile with watchlists and favorites
-- **Dark/Light Mode** - Professional color schemes for different environments
-- **Responsive Design** - Works on desktop and mobile devices
-- **Type-safe Implementation** - Built with TypeScript for reliability
+## ✨ Key Features
 
-## 📊 Dashboard Components
+### 🚀 Core Functionality
+- **Authentic Terminal Experience** - Pixel-perfect recreation of Bloomberg Terminal UI
+- **Real-time Data Streams** - Live market data with WebSocket integration
+- **Multi-panel Layouts** - Configurable workspace (1-4 panels)
+- **Dark/Light Themes** - Professional color schemes with automatic switching
 
-- **Market Overview** - Global market indices with real-time updates
-- **Portfolio Tracker** - Monitor your investments with detailed metrics
-- **News Feed** - Stay updated with the latest financial news
-- **User Profile** - Personalized dashboard experience
-- **Advanced Sparklines** - Visual representation of market trends
+### 📈 Advanced Analytics
+- **Interactive Sparklines** - 60+ technical indicators
+- **Portfolio Tracker** - Performance metrics with risk analysis
+- **News Integration** - AI-powered sentiment analysis
+- **Watchlist Manager** - Customizable asset tracking
 
-## 🛠️ Technologies Used
+### ⚙️ Technical Excellence
+- **Type-safe Architecture** - Full TypeScript implementation
+- **Responsive Design** - Optimized for all devices
+- **Performance Optimized** - 60fps chart rendering
+- **Modular Components** - Easy feature extension
 
-- **Next.js** - React framework for production
-- **TypeScript** - Type-safe JavaScript
-- **Tailwind CSS** - Utility-first CSS framework
-- **Lucide Icons** - Beautiful, consistent icons
-- **Canvas API** - For custom financial charts
+---
 
-## 📋 Prerequisites
+## 🛠 Technology Stack
 
-- Node.js 18.0 or later
-- npm or yarn
+| Category        | Technologies                          |
+|-----------------|---------------------------------------|
+| Framework       | Next.js 14 (App Router)               |
+| Language        | TypeScript 5                          |
+| Styling         | Tailwind CSS + CSS Modules            |
+| Visualization   | D3.js, Chart.js, Canvas API           |
+| State Management| Zustand + React Query                 |
+| API             | REST + WebSockets                     |
+| Testing         | Jest + React Testing Library          |
 
-## 🔧 Installation
+---
 
+## � Dashboard Components
+
+```mermaid
+graph TD
+    A[Terminal Dashboard] --> B[Market Overview]
+    A --> C[Portfolio Tracker]
+    A --> D[News Feed]
+    A --> E[Watchlists]
+    A --> F[User Profile]
+    
+    B --> B1[Global Indices]
+    B --> B2[Currency Pairs]
+    B --> B3[Commodities]
+    
+    C --> C1[Performance Metrics]
+    C --> C2[Asset Allocation]
+    C --> C3[Risk Analysis]
+    
+    D --> D1[Breaking News]
+    D --> D2[Market Movers]
+    D --> D3[Sentiment Analysis]
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js ≥18.0
+- npm ≥9.0 or yarn ≥1.22
+- Bloomberg API credentials (optional)
+
+### Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/mach2furkan/Dashbord-
    cd Dashbord-
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. Configure environment:
+   ```bash
+   cp .env.example .env.local
+   ```
+4. Start development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contribution Guidelines](CONTRIBUTING.md) for details.
+
+---
+
+<div align="center">
+  <p>🔔 <em>Stay updated with market trends using our advanced terminal solution</em> 🔔</p>
+</div>
